@@ -178,7 +178,7 @@ if __name__ == "__main__":
     st.markdown(hide_menu_style, unsafe_allow_html=True)
     ## End hide menu
 
-    df_ville_origine = pd.read_csv('/Users/pierre-louis.danieau/Documents/perso/TGV_max_project/ville_origine.csv')
+    df_ville_origine = pd.read_csv('ville_origine.csv')
     del df_ville_origine['Unnamed: 0']
 
 
