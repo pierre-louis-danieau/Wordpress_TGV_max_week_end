@@ -96,7 +96,7 @@ def color_df(val):
 
 #####Compute time long##############
 
-@st.cache(suppress_st_warning=True, show_spinner=False)
+@st.cache(suppress_st_warning=True, show_spinner=False,hash_funcs={'_json.Scanner': hash})
 def compute_time_long(option_origine,option_date_depart,option_date_retour):
     find = False
     day_d = option_date_depart.day
