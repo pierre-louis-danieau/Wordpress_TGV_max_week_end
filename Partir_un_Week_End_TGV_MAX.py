@@ -141,7 +141,7 @@ if __name__ == "__main__":
     id = ctx.session_id
 
     with col1_first:
-        st.markdown("<h2 style='color: RoyalBlue;'>Maxplorateur - Un Week end en TGV Max</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='color: RoyalBlue;'>Un Week end en TGV Max</h2>", unsafe_allow_html=True)
         st.write("""
             **Partez découvrir gratuitement la France le temps d'un Week-End  !**
             
